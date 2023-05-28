@@ -7,7 +7,7 @@
                     <li><NuxtLink to="/" class="flex items-center gap-[9.5px] text-white">ENG <Icon name="nimbus:arrows-horizontal" color="white" />UZB</NuxtLink></li>
                     <li><NuxtLink to="/"  class="flex items-center gap-[9.5px] text-white">RUS<Icon name="nimbus:arrows-horizontal" color="white" />UZB</NuxtLink></li>
                     <li><NuxtLink to="/articles" class="text-white">Articles</NuxtLink></li>
-                    <li><NuxtLink to="/grammer" class="text-white">Grammer</NuxtLink></li>
+                    <li><NuxtLink to="/grammar" class="text-white">Grammar</NuxtLink></li>
                     <li><NuxtLink to="/about" class="text-white">About us</NuxtLink></li>
                    
                 </ul>
@@ -21,10 +21,8 @@
         
 
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+
 </script>
 <style lang="">
     

@@ -4,7 +4,7 @@
         <div class="mt-[60px] w-[874px] h-[74px] bg-white rounded-[100px]">
             
             <button class="w-[174px] h-[64px] rounded-[100px] bg-[#01756C] m-[5px]">ENG <Icon name="nimbus:arrows-horizontal" color="white" />UZB</button>
-            <input v-model="word" @keydown.enter="find" type="search">
+            <input v-model="word" @keyup.enter="find" type="search">
         </div>
         <div  v-if="!getData?.data" class="w-[606px] h-[141px] mt-[144px]">
             <p class="text-[24px] text-center">Search any words, and we found this word defination, translation and etc.</p>
